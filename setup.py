@@ -12,7 +12,9 @@ setup(
     description="Graph Neural Networks For Systematic Generalisation", 
     long_description=LONG_DESC,
     long_description_content_type="text/markdown",
-    author="Anonymous",  # Optional
+    author="Irtaza Khalid",  # Optional
+    author_email="khalidmi@cardiff.ac.uk",
+    url="https://github.com/erg0dic/gnn-sg",
     classifiers=[ 
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Researchers",
@@ -51,5 +53,9 @@ setup(
         "console_scripts": [
             "run=src.train:run",
         ],
+    },
+    project_urls={  # Optional
+        "Bug Reports": "https://github.com/erg0dic/gnn-sg/issues",
+        "Source": "https://github.com/erg0dic/gnn-sg/",
     },
 )
