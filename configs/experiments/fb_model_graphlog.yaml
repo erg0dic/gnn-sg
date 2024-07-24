@@ -1,0 +1,38 @@
+exp_name: 'test_graphlog'
+epochs: 2
+entropy_reg: 0.001
+remove_not_chains: False
+load_from_checkpoint: False
+NBF_type: NBFdistR 
+schedule: 'step'
+final_noiseless_epochs: 1
+dataset_type: 'graphlog'
+data_train_path: ['../data/graphlog_hard/rule_8/train.jsonl',
+                  '../data/graphlog_hard/rule_8/valid.jsonl']
+just_discretize: False
+eval_mode: True
+is_y_prob_model: False
+do_reg: False
+lr: 0.01
+fp_bp: True
+facets: 32
+hidden_dim: 512
+fw_only: False
+bw_only: False
+
+# margin loss hyperparams
+use_margin_loss: True
+num_negative_samples: 1
+margin: 1.
+score_fn: 'xent'
+final_linear: False
+outs_as_left_arg: False
+batch_size: 16
+
+
+seed: 42
+aggr_type: 'mul'
+
+# ablations
+ablate_probas: False
+ablate_compose: False

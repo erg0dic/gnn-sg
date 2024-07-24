@@ -1,0 +1,32 @@
+exp_name: 'fb_interval'
+epochs: 40
+remove_not_chains: False
+load_from_checkpoint: False
+NBF_type: NBFdistR 
+dataset_type: 'interval'
+data_train_path: '../data/rcc8/train_interval.csv'
+eval_mode: True
+lr: 0.01
+fp_bp: True
+facets: 8
+hidden_dim: 64
+fw_only: False
+bw_only: False
+
+# margin loss hyperparams
+use_margin_loss: True
+num_negative_samples: 1
+margin: 1.
+score_fn: 'xent'
+final_linear: False
+outs_as_left_arg: False
+batch_size: 128
+
+
+seed: 42
+aggr_type: 'min'
+
+# ablations
+ablate_probas: False
+ablate_compose: False
+

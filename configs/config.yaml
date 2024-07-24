@@ -1,0 +1,33 @@
+# universal config params
+
+# only the first layer is active during the message passing rounds
+shared: True
+
+dist: 'euclidean'
+eval_mode: False
+use_mlp_classifier: False
+
+# dimension of the vector embeddings
+hidden_dim: 18
+
+# number of message passing rounds
+num_layers: 9
+
+num_hyper_runs: 10
+
+# note that up till now in the project: this has been True
+set_hidden_eq_num_relations: False
+
+# wandb params
+turn_on_wandb: False
+wandb:
+  enabled: true
+  entity: "unnamed"
+  project: "gnn-systematic-generalisation"
+
+# a universal debug flag
+debug: False
+
+defaults:
+- _self_
+- experiments: default  # load mutable config parameters
