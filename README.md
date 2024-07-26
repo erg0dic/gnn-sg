@@ -31,7 +31,7 @@ python train.py experiments=fb_model_rcc8 experiments.epochs=10
 ```
 
 ## Cite
-If found this work/code useful, please consider citing us:
+If you find this work/code useful, please consider citing us:
 ```bibtex
 @misc{khalid2024systematicreasoning,
       title={Systematic Reasoning About Relational Domains With Graph Neural Networks}, 
