@@ -33,6 +33,14 @@ python train.py experiments=fb_model_rcc8 experiments.epochs=10
 ## Cite
 If found this work/code useful, please consider citing us:
 ```bibtex
-
+@misc{khalid2024systematicreasoning,
+      title={Systematic Reasoning About Relational Domains With Graph Neural Networks}, 
+      author={Irtaza Khalid and Steven Schockaert},
+      year={2024},
+      eprint={2407.17396},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2407.17396}, 
+}
 ```
 
