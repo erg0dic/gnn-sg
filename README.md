@@ -1,4 +1,4 @@
-# Graph Neural Network architectures for systematic generalisation problems
+# Epistemic Graph Neural Network for systematic generalisation problems
 
 ## Getting started
 
