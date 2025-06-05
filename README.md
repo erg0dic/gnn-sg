@@ -30,6 +30,16 @@ The config can be easily adjusted from the command line using a dot file path no
 python train.py experiments=fb_model_rcc8 experiments.epochs=10
 ```
 
+## Find STaR on Huggingface datasets
+
+You can also find the disjunctive systematic relational generalization that was developed along with this work on huggingface
+
+```python3
+from datasets import load_dataset
+
+star_dataset = load_dataset("erg0dic/STaR")
+```
+
 ## Cite
 If you find this code useful, please consider citing us:
 ```bibtex
