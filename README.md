@@ -32,7 +32,7 @@ python train.py experiments=fb_model_rcc8 experiments.epochs=10
 
 ## Find STaR on Huggingface datasets
 
-You can also find the disjunctive systematic relational generalization that was developed along with this work on huggingface
+You can also find the disjunctive systematic relational generalization STaR dataset that was developed along with this work on huggingface
 
 ```python3
 from datasets import load_dataset
